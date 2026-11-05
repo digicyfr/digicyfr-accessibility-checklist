@@ -8,3 +8,5 @@ Date: 5 November 2026. This version fixes the named guidance container issue doc
 - Axe could not finish a native-control color-contrast check. This is recorded as inconclusive, not a pass. The 0.1.0 browser QA covers the wider validation, save, filter, CSV and private-access flow; the 0.1.1 integration reran those code paths without other runtime changes.
 
 The test used synthetic data on a local disposable WordPress site. A human screen-reader session, multisite and a customer-specific host have not been tested. Browser and axe results do not establish WCAG conformance of the plugin or a host website.
+
+The published GitHub `v0.1.1` ZIP and checksum sidecar were downloaded without authentication. The sidecar verified, and the downloaded ZIP was byte-identical to the browser-tested local ZIP. The protected `release/0.1.1` branch and annotated tag resolve to commit `51fbc35232e7e4d8a869bc04c143c8d4199ba0d5`; main and release-branch CI passed. The GitHub release is stable for self-hosted manual ZIP installation with the limits above disclosed.
