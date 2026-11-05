@@ -1,0 +1,341 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: pl_PL\nMIME-Version: 1.0\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+msgid "A Journey uses a start URL, not a post ID."
+msgstr "Ścieżka użytkownika używa adresu początkowego, a nie identyfikatora wpisu."
+
+msgid "Accessibility Checklist"
+msgstr "Lista kontrolna dostępności"
+
+msgid "Accessibility Checks"
+msgstr "Testy dostępności"
+
+msgid "Accessibility observations"
+msgstr "Obserwacje dostępności"
+
+msgid "Actions"
+msgstr "Działania"
+
+msgid "All"
+msgstr "Wszystkie"
+
+msgid "Apply filters"
+msgstr "Zastosuj filtry"
+
+msgid "Assignee"
+msgstr "Osoba odpowiedzialna"
+
+msgid "Assignee user ID"
+msgstr "ID osoby odpowiedzialnej"
+
+msgid "Assignee user ID (0 for none)"
+msgstr "ID osoby odpowiedzialnej (0 oznacza brak)"
+
+msgid "Assignment is informational and does not grant access; only administrators can view records."
+msgstr "Przypisanie ma charakter informacyjny i nie daje dostępu; rekordy widzą tylko administratorzy."
+
+msgid "Back to observations"
+msgstr "Wróć do obserwacji"
+
+msgid "CSV includes private notes and URLs. Exports over 20,000 filtered records are rejected rather than truncated."
+msgstr "CSV zawiera prywatne notatki i adresy URL. Eksport ponad 20 000 przefiltrowanych rekordów jest odrzucany, a nie skracany."
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Check"
+msgstr "Test"
+
+msgid "Choose Page or Journey."
+msgstr "Wybierz stronę lub ścieżkę użytkownika."
+
+msgid "Choose a meaningful scope and record what you actually tested. These prompts do not establish WCAG conformance."
+msgstr "Wybierz konkretny zakres i zapisz, co faktycznie przetestowano. Te wskazówki nie potwierdzają zgodności z WCAG."
+
+msgid "Choose a recorded outcome."
+msgstr "Wybierz wynik obserwacji."
+
+msgid "Choose one of the six guided checks."
+msgstr "Wybierz jeden z sześciu testów z instrukcją."
+
+msgid "Correct the highlighted fields and save again."
+msgstr "Popraw wskazane pola i zapisz ponownie."
+
+msgid "Correct these fields and save again:"
+msgstr "Popraw te pola i zapisz ponownie:"
+
+msgid "Could not export CSV."
+msgstr "Nie udało się wyeksportować CSV."
+
+msgid "Could not read private observations."
+msgstr "Nie udało się odczytać prywatnych obserwacji."
+
+msgid "Could not resolve a same-site URL for this page."
+msgstr "Nie udało się ustalić adresu tej strony w tej witrynie."
+
+msgid "Could not write CSV."
+msgstr "Nie udało się zapisać CSV."
+
+msgid "Created (site time):"
+msgstr "Utworzono (czas witryny):"
+
+msgid "Delete"
+msgstr "Usuń"
+
+msgid "Delete observation?"
+msgstr "Usunąć obserwację?"
+
+msgid "Delete permanently"
+msgstr "Usuń trwale"
+
+msgid "Each row is one human observation. Not recorded is unknown; record counts are not a sitewide pass rate."
+msgstr "Każdy wiersz to jedna ręczna obserwacja. Brak zapisu oznacza stan nieznany; liczba rekordów nie jest wskaźnikiem dostępności całej witryny."
+
+msgid "Edit"
+msgstr "Edytuj"
+
+msgid "Edit observation"
+msgstr "Edytuj obserwację"
+
+msgid "Enlarge text and narrow the layout; note clipped content or two-dimensional scrolling where applicable."
+msgstr "Powiększ tekst i zwęź układ; zanotuj uciętą treść lub przewijanie w dwóch kierunkach tam, gdzie ma to znaczenie."
+
+msgid "Enter a complete HTTP(S) evidence URL without credentials."
+msgstr "Podaj pełny adres HTTP(S) dowodu, bez danych logowania."
+
+msgid "Enter a complete URL on this site without credentials."
+msgstr "Podaj pełny adres URL w tej witrynie, bez danych logowania."
+
+msgid "Enter a real site-local date that is not in the future."
+msgstr "Podaj rzeczywistą datę w strefie witryny, nie późniejszą niż dziś."
+
+msgid "Enter a scope name of at most 160 characters."
+msgstr "Podaj nazwę zakresu o długości najwyżej 160 znaków."
+
+msgid "Enter a valid published post or page ID."
+msgstr "Podaj poprawny identyfikator opublikowanego wpisu lub strony."
+
+msgid "Enter an existing user ID or 0."
+msgstr "Podaj ID istniejącego użytkownika albo 0."
+
+msgid "Evidence URL (optional)"
+msgstr "Adres URL dowodu (opcjonalnie)"
+
+msgid "Evidence link (opens in a new tab)"
+msgstr "Odnośnik do dowodu (otwiera się w nowej karcie)"
+
+msgid "Explain the problem or why this check does not apply."
+msgstr "Opisz problem lub wyjaśnij, dlaczego ten test nie ma zastosowania."
+
+msgid "Export filtered CSV"
+msgstr "Eksportuj przefiltrowany CSV"
+
+msgid "External evidence (opens in a new tab)"
+msgstr "Zewnętrzny dowód (otwiera się w nowej karcie)"
+
+msgid "External evidence is allowed. Do not paste private or tokenized links; notes and URLs are included in CSV."
+msgstr "Można podać zewnętrzny dowód. Nie wklejaj prywatnych odnośników ani adresów z tokenem; notatki i URL trafią do CSV."
+
+msgid "Filtered accessibility observations"
+msgstr "Przefiltrowane obserwacje dostępności"
+
+msgid "For a page ID, its URL is saved automatically. The recorded URL is kept when its permalink later changes."
+msgstr "Dla ID strony adres URL zapisuje się automatycznie. Zapisany adres pozostaje po późniejszej zmianie odnośnika."
+
+msgid "Former user #%d"
+msgstr "Były użytkownik #%d"
+
+msgid "Forms and errors"
+msgstr "Formularze i błędy"
+
+msgid "Guided check"
+msgstr "Test z instrukcją"
+
+msgid "Human check instructions"
+msgstr "Instrukcje ręcznych testów"
+
+msgid "Image meaning"
+msgstr "Znaczenie obrazów"
+
+msgid "Inspect image purpose in context, including linked images; judge the alternative text by that purpose."
+msgstr "Sprawdź cel obrazów w kontekście, także obrazów w odnośnikach; oceń tekst alternatywny według tego celu."
+
+msgid "Inspect labels and instructions; submit an invalid value and observe the text error."
+msgstr "Sprawdź etykiety i instrukcje; wyślij niepoprawną wartość i zaobserwuj komunikat tekstowy o błędzie."
+
+msgid "Journey"
+msgstr "Ścieżka użytkownika"
+
+msgid "Keep the note within 2,000 characters."
+msgstr "Notatka może mieć najwyżej 2000 znaków."
+
+msgid "Key journey"
+msgstr "Kluczowa ścieżka"
+
+msgid "Keyboard access"
+msgstr "Obsługa klawiaturą"
+
+msgid "Leave the date blank until this check is tested."
+msgstr "Pozostaw datę pustą, dopóki nie wykonasz testu."
+
+msgid "Manual observation; unrecorded checks unknown."
+msgstr "Obserwacja ręczna; niezapisane testy pozostają nieznane."
+
+msgid "More than 20,000 filtered records; narrow the filters before exporting."
+msgstr "Ponad 20 000 przefiltrowanych rekordów; zawęź filtry przed eksportem."
+
+msgid "Navigate without a pointer; note an unreachable control, trap, or order problem."
+msgstr "Poruszaj się bez wskaźnika; zanotuj niedostępną kontrolkę, pułapkę lub problem z kolejnością."
+
+msgid "Needs work"
+msgstr "Wymaga poprawy"
+
+msgid "New observation"
+msgstr "Nowa obserwacja"
+
+msgid "Next page"
+msgstr "Następna strona"
+
+msgid "No observations match these filters. An unrecorded check is unknown."
+msgstr "Brak obserwacji pasujących do filtrów. Niezapisany test ma stan nieznany."
+
+msgid "None"
+msgstr "Brak"
+
+msgid "Not applicable"
+msgstr "Nie dotyczy"
+
+msgid "Not tested"
+msgstr "Nie testowano"
+
+msgid "Observation deleted."
+msgstr "Obserwacja została usunięta."
+
+msgid "Observation not found."
+msgstr "Nie znaleziono obserwacji."
+
+msgid "Observation saved."
+msgstr "Obserwacja została zapisana."
+
+msgid "Observe whether keyboard focus stays visible on controls throughout this scope."
+msgstr "Sprawdź, czy fokus klawiatury pozostaje widoczny na kontrolkach w całym zakresie."
+
+msgid "Observed outcome"
+msgstr "Zaobserwowany wynik"
+
+msgid "Observed pass"
+msgstr "Zaobserwowano poprawne działanie"
+
+msgid "Open current source (new tab)"
+msgstr "Otwórz bieżącą stronę (nowa karta)"
+
+msgid "Open recorded URL (new tab)"
+msgstr "Otwórz zapisany adres URL (nowa karta)"
+
+msgid "Outcome"
+msgstr "Wynik"
+
+msgid "Page or post"
+msgstr "Strona lub wpis"
+
+msgid "Page or task name"
+msgstr "Nazwa strony lub zadania"
+
+msgid "Permalink changed since observation"
+msgstr "Odnośnik zmienił się od czasu obserwacji"
+
+msgid "Previous page"
+msgstr "Poprzednia strona"
+
+msgid "Private observations"
+msgstr "Prywatne obserwacje"
+
+msgid "Private, dated records for six guided human accessibility checks on pages and journeys."
+msgstr "Prywatne, datowane zapisy sześciu ręcznych testów dostępności stron i ścieżek użytkownika."
+
+msgid "Published page or post ID (page scope only)"
+msgstr "ID opublikowanej strony lub wpisu (tylko zakres strony)"
+
+msgid "Record human observations for a chosen page or journey. Unrecorded checks are unknown. These six prompts are not a conformance evaluation, score, or certificate."
+msgstr "Zapisuj ręczne obserwacje wybranej strony lub ścieżki. Niezapisane testy mają stan nieznany. Sześć wskazówek nie stanowi oceny zgodności, punktacji ani certyfikatu."
+
+msgid "Required"
+msgstr "Wymagane"
+
+msgid "Same-site URL (required for journey or page without ID)"
+msgstr "Adres URL tej witryny (wymagany dla ścieżki lub strony bez ID)"
+
+msgid "Save observation"
+msgstr "Zapisz obserwację"
+
+msgid "Scope"
+msgstr "Zakres"
+
+msgid "Scope name"
+msgstr "Nazwa zakresu"
+
+msgid "Scope type"
+msgstr "Typ zakresu"
+
+msgid "Source no longer public"
+msgstr "Źródło nie jest już publiczne"
+
+msgid "Source removed"
+msgstr "Źródło usunięte"
+
+msgid "Tested date"
+msgstr "Data testu"
+
+msgid "Tested on"
+msgstr "Przetestowano"
+
+msgid "Tested on (site-local date; blank if not tested)"
+msgstr "Data testu (strefa witryny; puste, jeśli nie testowano)"
+
+msgid "The action failed. Check permissions and try again."
+msgstr "Działanie nie powiodło się. Sprawdź uprawnienia i spróbuj ponownie."
+
+msgid "The observation could not be saved."
+msgstr "Nie udało się zapisać obserwacji."
+
+msgid "The page or post must be published."
+msgstr "Strona lub wpis musi być opublikowany."
+
+msgid "This permanently deletes this observation and its private note."
+msgstr "To trwale usunie obserwację i jej prywatną notatkę."
+
+msgid "Try a named end-to-end task with a keyboard and note where it cannot be completed."
+msgstr "Wykonaj klawiaturą nazwane zadanie od początku do końca i zanotuj miejsce, w którym nie da się go ukończyć."
+
+msgid "Unknown action."
+msgstr "Nieznane działanie."
+
+msgid "Updated (site time):"
+msgstr "Zaktualizowano (czas witryny):"
+
+msgid "Visible focus"
+msgstr "Widoczny fokus"
+
+msgid "W3C evaluation resources (opens in a new tab)"
+msgstr "Materiały W3C o ocenie dostępności (nowa karta)"
+
+msgid "W3C guidance (opens in a new tab)"
+msgstr "Wskazówki W3C (nowa karta)"
+
+msgid "What happened? (required for Needs work or Not applicable)"
+msgstr "Co się wydarzyło? (wymagane dla Wymaga poprawy lub Nie dotyczy)"
+
+msgid "You cannot change private observations."
+msgstr "Nie możesz zmieniać prywatnych obserwacji."
+
+msgid "You cannot edit this observation."
+msgstr "Nie możesz edytować tej obserwacji."
+
+msgid "You cannot export private observations."
+msgstr "Nie możesz eksportować prywatnych obserwacji."
+
+msgid "You cannot view private observations."
+msgstr "Nie możesz przeglądać prywatnych obserwacji."
+
+msgid "Zoom and reflow"
+msgstr "Powiększenie i dopasowanie układu"

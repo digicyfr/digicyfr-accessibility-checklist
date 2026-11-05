@@ -1,0 +1,12 @@
+digicyfr-accessibility-checklist.php
+includes/class-dacl-model.php
+includes/class-dacl-admin.php
+assets/admin.js
+assets/admin.css
+languages/digicyfr-accessibility-checklist-pl_PL.po
+languages/digicyfr-accessibility-checklist-pl_PL.mo
+README.md
+readme.txt
+CHANGELOG.md
+LICENSE
+uninstall.php
