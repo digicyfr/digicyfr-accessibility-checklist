@@ -159,6 +159,7 @@ ob_start();
 DACL_Admin::screen();
 $invalid_form = ob_get_clean();
 check( str_contains( $invalid_form, 'class="notice notice-error dacl-errors"' ) && 4 === preg_match_all( '/<input type="radio"[^>]*aria-invalid="true" aria-describedby="dacl-error-outcome"/', $invalid_form ), 'invalid outcome form announces summary and associates all radio controls with error' );
+check( str_contains( $invalid_form, 'class="dacl-guidance" role="group" aria-label="Human check instructions"' ), 'guided instructions expose a named group to assistive technology' );
 wp_delete_post( $page_id, true );
 $_GET = array( 'page' => 'digicyfr-accessibility-checklist', 'scope_search' => 'Public page' );
 ob_start();

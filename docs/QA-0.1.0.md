@@ -32,6 +32,14 @@ On 2026-11-05, the published ZIP and SHA sidecar were downloaded from the public
 
 The browser check used scripted interaction and focus assertions. A human screen-reader session and long-term operational use remain open. All browser fixture data was synthetic; the disposable site and its database were removed.
 
+## Automated accessibility audit (2026-11-05)
+
+Playwright Chromium 156 with axe-core 4.10.3 checked the exact public v0.1.0 ZIP's private list and new-observation form against WCAG 2/2.1/2.2 A/AA rules. The full WordPress Pages list baseline had one `link-in-text-block` finding on WordPress's **Privacy Policy** row; the plugin's full pages and scoped `.dacl-wrap` had no definite axe violations. Axe marked one plugin-owned `aria-prohibited-attr` item for manual review: the labelled `.dacl-guidance` was a generic `<div>`, so its `aria-label` was not reliably exposed. [Full baseline and plugin audit](evidence/0.1.0/axe-admin-20261105.json) · [targeted original ZIP finding](evidence/0.1.0/axe-aria-label-original.json).
+
+The main branch now adds `role="group"` to that container. A targeted axe rerun on the repaired DOM had zero `aria-prohibited-attr` findings; the corresponding PHP passed syntax validation. The **public v0.1.0 ZIP is immutable and still contains the original markup**. Build and validate a new versioned artifact before stable promotion. Axe left some color-contrast checks incomplete because of native-control background images or partial obscuring; those are not recorded as passes. This automation does not replace a human screen-reader review.
+
+Keyboard Enter opened the new form from the list. Tab from the labelled page/task name field reached the next labelled control with a visible 3px outline. Chrome's accessibility tree named the scope selector, page/task field and Save button. At 390px the form document width stayed 390px, and no browser script error occurred. [390px form](evidence/0.1.0/a11y-form-390px.png).
+
 ## Current artifact recheck and release limits
 
 On 2026-11-05, the rebuilt ZIP and SHA-256 sidecar matched the standalone and workspace packagers. This exact rebuilt ZIP passed install/activate/deactivate/reactivate and the complete WordPress integration fixture on the tested stack. The post-tag browser check above used the exact public GitHub ZIP; the earlier Plugin Check result is from a byte-different ZIP with identical runtime files.

@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-05",
+  "browser": "Chromium 156.0.8078.4",
+  "axeVersion": "4.10.3",
+  "zipSha256": "06ce9939ca9eb5e553ad47b2fd3384c8ff75ddc26ea0f9f2bb5873e7fd2fddf1",
+  "baseline": {
+    "violations": [
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "th[aria-label=\"Privacy Policy\"] > strong > .row-title"
+            ],
+            "summary": "Fix any of the following:\n  The link has insufficient color contrast of 1.3:1 with the surrounding text. (Minimum contrast is 3:1, link text: #3858e9, surrounding text: #50575e)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 3
+      },
+      {
+        "id": "th-has-data-cells",
+        "count": 1
+      }
+    ],
+    "passes": 32
+  },
+  "listFull": {
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 3
+      }
+    ],
+    "passes": 32
+  },
+  "listLocal": {
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "count": 3
+      }
+    ],
+    "passes": 11
+  },
+  "formFull": {
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "count": 1
+      },
+      {
+        "id": "color-contrast",
+        "count": 4
+      }
+    ],
+    "passes": 31
+  },
+  "formLocal": {
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "count": 1
+      },
+      {
+        "id": "color-contrast",
+        "count": 4
+      }
+    ],
+    "passes": 17
+  },
+  "formMobile": {
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "count": 1
+      },
+      {
+        "id": "color-contrast",
+        "count": 15
+      }
+    ],
+    "passes": 17
+  },
+  "focus": {
+    "id": "dacl-scope_post_id",
+    "outline": "solid",
+    "width": "3px"
+  },
+  "axFields": [
+    {
+      "role": "combobox",
+      "name": "Scope type Required"
+    },
+    {
+      "role": "textbox",
+      "name": "Page or task name Required"
+    },
+    {
+      "role": "button",
+      "name": "Save observation"
+    }
+  ],
+  "mobile": {
+    "viewport": 390,
+    "document": 390
+  },
+  "errors": []
+}

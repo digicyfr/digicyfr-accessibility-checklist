@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-05",
+  "axeVersion": "4.10.3",
+  "artifactSha256": "06ce9939ca9eb5e553ad47b2fd3384c8ff75ddc26ea0f9f2bb5873e7fd2fddf1",
+  "original": {
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "nodes": [
+          {
+            "target": [
+              ".dacl-guidance"
+            ],
+            "html": "<div class=\"dacl-guidance\" aria-label=\"Human check instructions\">",
+            "summary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute."
+          }
+        ]
+      }
+    ]
+  },
+  "roleGroupDomRecheck": {
+    "violations": [],
+    "incomplete": []
+  }
+}

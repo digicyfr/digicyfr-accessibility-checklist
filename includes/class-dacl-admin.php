@@ -281,7 +281,7 @@ final class DACL_Admin {
 			foreach ( DACL_Model::checks() as $key => $check ) :
 				?>
 				<option value="<?php echo esc_attr( $key ); ?>" <?php selected( $values['test_key'], $key ); ?>><?php echo esc_html( $check[0] ); ?></option><?php endforeach; ?></select><?php self::error( $errors, 'test_key' ); ?>
-			<div class="dacl-guidance" aria-label="<?php echo esc_attr__( 'Human check instructions', 'digicyfr-accessibility-checklist' ); ?>"><p><?php echo esc_html__( 'Choose a meaningful scope and record what you actually tested. These prompts do not establish WCAG conformance.', 'digicyfr-accessibility-checklist' ); ?></p><ul>
+			<div class="dacl-guidance" role="group" aria-label="<?php echo esc_attr__( 'Human check instructions', 'digicyfr-accessibility-checklist' ); ?>"><p><?php echo esc_html__( 'Choose a meaningful scope and record what you actually tested. These prompts do not establish WCAG conformance.', 'digicyfr-accessibility-checklist' ); ?></p><ul>
 			<?php
 			foreach ( DACL_Model::checks() as $key => $check ) :
 				?>
