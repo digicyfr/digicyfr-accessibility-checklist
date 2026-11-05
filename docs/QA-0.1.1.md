@@ -10,3 +10,10 @@ Date: 5 November 2026. This version fixes the named guidance container issue doc
 The test used synthetic data on a local disposable WordPress site. A human screen-reader session, multisite and a customer-specific host have not been tested. Browser and axe results do not establish WCAG conformance of the plugin or a host website.
 
 The published GitHub `v0.1.1` ZIP and checksum sidecar were downloaded without authentication. The sidecar verified, and the downloaded ZIP was byte-identical to the browser-tested local ZIP. The protected `release/0.1.1` branch and annotated tag resolve to commit `51fbc35232e7e4d8a869bc04c143c8d4199ba0d5`; main and release-branch CI passed. The GitHub release is stable for self-hosted manual ZIP installation with the limits above disclosed.
+
+## Live Digicyfr website delivery — 5 November 2026
+
+- The live [English](https://www.digicyfr.com/en/wordpress-plugins/digicyfr-accessibility-checklist) and [Polish](https://www.digicyfr.com/pl/wordpress-plugins/digicyfr-accessibility-checklist) pages both returned HTTP 200, with the current stable v0.1.1 ZIP link, matching SHA-256, screenshot and canonical metadata; neither carried `noindex`. Both URLs appeared in the live sitemap.
+- The live screenshot URL `/images/wordpress-plugins/digicyfr-accessibility-checklist.png` returned a PNG. `https://digicyfr.com/plugins/digicyfr-accessibility-checklist/` followed the `Update URI` redirect to the English detail page.
+- Following the ZIP and checksum links from the live pages returned the unchanged public GitHub release asset and sidecar. ZIP SHA-256: `44af037d477301dec4a9d3fc18247a2dee123da6fb0f8d465e9c4663e11b1266`. The same public ZIP hash had already passed the clean install and plugin-specific checks in this QA record; no new clean install was run for this site-delivery audit.
+- Website production commit: [`9dfb9728`](https://github.com/digicyfr/cyfr/commit/9dfb9728c92e7d4437cfe2f8368b54ce917c0008). Distribution remains a manual ZIP install/update; this is not a WordPress.org or automatic-update claim. Human screen-reader and representative-host checks remain follow-up work for broader claims.
