@@ -2,6 +2,16 @@
 
 Free GPL WordPress plugin for private, dated **human** accessibility observations on a chosen page or key journey. Administrators choose one of six guided checks, record what they tested, assign an informational owner, and export a filtered work log. It does not scan, alter the public site, make a WCAG conformance claim, or infer that missing checks passed.
 
+## Website guides and stable release
+
+- [Accessibility Checklist: English overview and installation](https://www.digicyfr.com/en/wordpress-plugins/digicyfr-accessibility-checklist)
+- [Lista obserwacji dostępności: opis i instalacja po polsku](https://www.digicyfr.com/pl/wordpress-plugins/digicyfr-accessibility-checklist)
+- [Stable v0.1.1 release, ZIP and checksum](https://github.com/digicyfr/digicyfr-accessibility-checklist/releases/tag/v0.1.1)
+
+<a href="https://www.digicyfr.com/en/wordpress-plugins/digicyfr-accessibility-checklist"><img src="https://www.digicyfr.com/images/wordpress-plugins/digicyfr-accessibility-checklist.png" alt="Mobile form for a human accessibility observation" width="240"></a>
+
+_Example screenshot from a disposable test site._
+
 ## Install and use
 
 Upload the 0.1.1 ZIP at **Plugins → Add New → Upload Plugin**. Tested locally with WordPress 7.1, PHP 8.3.33 and MariaDB 11.4.13. The plugin declares WordPress 7.1+ and PHP 8.3+.
