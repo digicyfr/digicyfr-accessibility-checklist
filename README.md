@@ -4,7 +4,7 @@ Free GPL WordPress plugin for private, dated **human** accessibility observation
 
 ## Install and use
 
-Upload the 0.1.0 ZIP at **Plugins → Add New → Upload Plugin**. Tested locally with WordPress 7.1, PHP 8.3.33 and MariaDB 11.4.13. The plugin declares WordPress 7.1+ and PHP 8.3+.
+Upload the 0.1.1 ZIP at **Plugins → Add New → Upload Plugin**. Tested locally with WordPress 7.1, PHP 8.3.33 and MariaDB 11.4.13. The plugin declares WordPress 7.1+ and PHP 8.3+.
 
 1. An administrator opens **Accessibility Checks** and selects **New observation**. Choose Page or Journey, name the specific page/task, and choose a guided check. For a Page, enter a published post/page ID or a complete same-site URL. For a Journey, enter a complete same-site start URL.
 2. Follow the visible human-testing prompt and its W3C reference. Choose **Not tested**, **Observed pass**, **Needs work**, or **Not applicable**. The latter two require a plain-text note explaining the problem or reason. A completed outcome requires a real site-local test date no later than today. The tester is set from the signed-in administrator on completion; a later correction to only the note/assignee preserves the original tester. A new attempt should be a new observation.
@@ -19,7 +19,7 @@ Records use a private, nonexportable WordPress custom post type with registered 
 
 Notes and evidence URLs can contain personal or private information and appear in CSV. Do not paste tokenized or private URLs unless that disclosure is appropriate. External HTTP(S) evidence links are permitted but are **never fetched** by the plugin. No telemetry, email, cron, screenshot storage, or outbound request is made. Deactivation retains observations. **Uninstall permanently deletes all checklist posts and their metadata, including notes and URLs**; export needed records first.
 
-Version 0.1.0 uses manual ZIP updates from Digicyfr. Its unique `Update URI` prevents an unrelated directory update; no automatic update endpoint exists.
+Version 0.1.1 uses manual ZIP updates from Digicyfr. Its unique `Update URI` prevents an unrelated directory update; no automatic update endpoint exists.
 
 Source: [github.com/digicyfr/digicyfr-accessibility-checklist](https://github.com/digicyfr/digicyfr-accessibility-checklist). For ordinary support use [Issues](https://github.com/digicyfr/digicyfr-accessibility-checklist/issues); for vulnerabilities use [private security reporting](SECURITY.md).
 
@@ -27,9 +27,9 @@ Source: [github.com/digicyfr/digicyfr-accessibility-checklist](https://github.co
 
 ```bash
 python3 scripts/release.py
-python3 scripts/release.py --verify dist/digicyfr-accessibility-checklist-0.1.0.zip
-(cd dist && sha256sum -c digicyfr-accessibility-checklist-0.1.0.zip.sha256)
-bash tests/run-wordpress-integration.sh dist/digicyfr-accessibility-checklist-0.1.0.zip
+python3 scripts/release.py --verify dist/digicyfr-accessibility-checklist-0.1.1.zip
+(cd dist && sha256sum -c digicyfr-accessibility-checklist-0.1.1.zip.sha256)
+bash tests/run-wordpress-integration.sh dist/digicyfr-accessibility-checklist-0.1.1.zip
 ```
 
 License: GPL-2.0-or-later; see [LICENSE](LICENSE).

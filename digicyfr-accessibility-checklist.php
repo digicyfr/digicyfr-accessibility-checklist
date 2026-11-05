@@ -3,7 +3,7 @@
  * Plugin Name: Digicyfr Accessibility Checklist
  * Plugin URI: https://digicyfr.com/plugins/digicyfr-accessibility-checklist/
  * Description: Private, dated records for six guided human accessibility checks on pages and journeys.
- * Version: 0.1.0
+ * Version: 0.1.1
  * Requires at least: 7.1
  * Requires PHP: 8.3
  * Author: Digicyfr
@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'DIGICYFR_ACCESSIBILITY_CHECKLIST_VERSION', '0.1.0' );
+define( 'DIGICYFR_ACCESSIBILITY_CHECKLIST_VERSION', '0.1.1' );
 define( 'DIGICYFR_ACCESSIBILITY_CHECKLIST_PATH', plugin_dir_path( __FILE__ ) );
 define( 'DIGICYFR_ACCESSIBILITY_CHECKLIST_URL', plugin_dir_url( __FILE__ ) );
 

@@ -1,19 +1,17 @@
-# digicyfr-accessibility-checklist 0.1.0 release notes
+# digicyfr-accessibility-checklist 0.1.1 release notes
 
-This is the first free GPL-2.0-or-later release for manual ZIP installation. Source: https://github.com/digicyfr/digicyfr-accessibility-checklist. The `release/0.1.0` branch records the reviewed version. The branch alone is source code; use the attached `digicyfr-accessibility-checklist-0.1.0.zip` and verify its `.sha256` sidecar before installation.
+Free GPL-2.0-or-later release for manual WordPress ZIP installation. Source: https://github.com/digicyfr/digicyfr-accessibility-checklist. The protected `release/0.1.1` branch and `v0.1.1` tag record the reviewed source. Install the attached ZIP, not GitHub's source archive, and check its SHA-256 sidecar.
 
-## Included
+## Fix since 0.1.0
 
-Private human accessibility observations with six guided checks, explicit page/journey scope, date, assignee, note, evidence URL, filters, and guarded CSV.
+The new-observation form's guided instructions now use a named `group` role. The v0.1.0 ZIP had an `aria-label` on a generic `div`; axe-core flagged that label as unreliable for assistive technology. A focused integration assertion guards the repaired markup. The v0.1.0 tag, branch, and ZIP have not been changed.
 
-## Verification and compatibility
+## Included and tested scope
 
-WordPress 7.1, PHP 8.3.33 and MariaDB 11.4.13. The exact public GitHub ZIP passed installation and integration fixtures including permissions and uninstall. A post-tag Chromium check on that ZIP passed admin form validation, save and focus handling, combined filters, guarded CSV export, 390px layouts, and anonymous/Editor access denial. PHP/JS syntax and WPCS passed. Plugin Check ran on an earlier byte-different ZIP with identical runtime files and reported only the documented self-host distribution findings.
+The plugin records private human accessibility observations for a specific page or journey. Six guided checks, date, assignee, note, evidence URL, filters, and guarded CSV are included. It does not scan a site or issue a WCAG conformance verdict.
 
-## Limits and follow-up checks
+WordPress 7.1, PHP 8.3.33 and MariaDB 11.4.13 are the tested stack. The exact ZIP passes syntax, WordPress integration, permissions and uninstall checks. Browser and axe-core evidence is in [docs/QA-0.1.1.md](docs/QA-0.1.1.md).
 
-A manual screen-reader pass, multisite behavior, and long-term operational use remain untested. This plugin does not scan, fix, score or certify WCAG conformance. Uninstall permanently deletes observations, including private notes.
+## Limits
 
-An axe-core 4.10.3 audit of the exact public v0.1.0 ZIP flagged the new-observation guidance container: its `aria-label` was on a generic `<div>` without a role. Main now adds `role="group"`, and a targeted rerun cleared that finding. The attached v0.1.0 ZIP remains unchanged and still has the old markup; a new versioned build is required before stable promotion. Native-control color-contrast checks that axe could not determine remain for human review. See the [dated audit evidence](docs/QA-0.1.0.md).
-
-The `Update URI` protects this self-hosted plugin from an unrelated WordPress.org plugin with the same slug. It does not provide automatic updates. WordPress.org submission would need a separate review and distribution-specific changes. See the [post-tag QA record on main](https://github.com/digicyfr/digicyfr-accessibility-checklist/blob/main/docs/QA-0.1.0.md) for the detailed evidence and screenshots.
+Manual screen-reader use, multisite behavior, and long-term operational use have not been verified. Some native-control color-contrast checks are inconclusive in automated tooling. Records and notes are deleted on uninstall. The unique `Update URI` prevents a directory slug collision but does not provide automatic updates. WordPress.org distribution would require separate review.

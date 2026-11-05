@@ -31,7 +31,7 @@ function input( array $change = array() ): array {
 }
 
 $plugin = 'digicyfr-accessibility-checklist/digicyfr-accessibility-checklist.php';
-check( is_plugin_active( $plugin ) && '0.1.0' === DIGICYFR_ACCESSIBILITY_CHECKLIST_VERSION, 'exact ZIP active and versioned' );
+check( is_plugin_active( $plugin ) && '0.1.1' === DIGICYFR_ACCESSIBILITY_CHECKLIST_VERSION, 'exact ZIP active and versioned' );
 $admin = get_user_by( 'login', 'digicyfr_test_admin' );
 check( $admin instanceof WP_User, 'test administrator exists' );
 wp_set_current_user( $admin->ID );

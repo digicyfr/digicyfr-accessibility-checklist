@@ -1,0 +1,66 @@
+{
+  "url": "http://127.0.0.1:19071/wp-admin/admin.php?page=digicyfr-accessibility-checklist&dacl_view=new",
+  "group": {
+    "role": "group",
+    "name": "Human check instructions"
+  },
+  "namedGroup": true,
+  "width": {
+    "viewport": 390,
+    "document": 390
+  },
+  "violations": [],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "nodes": [
+        [
+          "#dacl-scope_kind"
+        ],
+        [
+          "#dacl-test_key"
+        ],
+        [
+          "legend"
+        ],
+        [
+          "legend > strong"
+        ],
+        [
+          "label:nth-child(2)"
+        ],
+        [
+          "label:nth-child(3)"
+        ],
+        [
+          "label:nth-child(4)"
+        ],
+        [
+          "#dacl-outcome > label:nth-child(5)"
+        ],
+        [
+          "label[for=\"dacl-tested_on\"]"
+        ],
+        [
+          "label[for=\"dacl-assignee_user_id\"]"
+        ],
+        [
+          ".description:nth-child(22)"
+        ],
+        [
+          "label[for=\"dacl-note\"]"
+        ],
+        [
+          "#dacl-note"
+        ],
+        [
+          "label[for=\"dacl-evidence_url\"]"
+        ],
+        [
+          ".description:nth-child(27)"
+        ]
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@ Tags: accessibility, checklist, manual testing, admin
 Requires at least: 7.1
 Requires PHP: 8.3
 Tested up to: 7.1
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -35,6 +35,10 @@ Only users with manage_options. Assignees do not receive access merely by assign
 All checklist posts and their private metadata are erased. Deactivation retains them.
 
 == Changelog ==
+
+= 0.1.1 =
+
+Give the guided instructions an accessible group role so their label is exposed reliably.
 
 = 0.1.0 =
 
