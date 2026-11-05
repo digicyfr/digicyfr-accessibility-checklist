@@ -8,10 +8,10 @@ Private human accessibility observations with six guided checks, explicit page/j
 
 ## Verification and compatibility
 
-WordPress 7.1, PHP 8.3.33 and MariaDB 11.4.13. The exact ZIP passed integration fixtures including permissions and uninstall, browser keyboard and 390px checks, PHP/JS syntax, WPCS, and Plugin Check with only self-host distribution findings.
+WordPress 7.1, PHP 8.3.33 and MariaDB 11.4.13. The exact public GitHub ZIP passed installation and integration fixtures including permissions and uninstall. A post-tag Chromium check on that ZIP passed admin form validation, save and focus handling, combined filters, guarded CSV export, 390px layouts, and anonymous/Editor access denial. PHP/JS syntax and WPCS passed. Plugin Check ran on an earlier byte-different ZIP with identical runtime files and reported only the documented self-host distribution findings.
 
 ## Limits and follow-up checks
 
 A manual screen-reader pass, multisite behavior, and long-term operational use remain untested. This plugin does not scan, fix, score or certify WCAG conformance. Uninstall permanently deletes observations, including private notes.
 
-The `Update URI` protects this self-hosted plugin from an unrelated WordPress.org plugin with the same slug. It does not provide automatic updates. WordPress.org submission would need a separate review and distribution-specific changes. See [QA record](docs/QA-0.1.0.md) for the detailed local evidence.
+The `Update URI` protects this self-hosted plugin from an unrelated WordPress.org plugin with the same slug. It does not provide automatic updates. WordPress.org submission would need a separate review and distribution-specific changes. See the [post-tag QA record on main](https://github.com/digicyfr/digicyfr-accessibility-checklist/blob/main/docs/QA-0.1.0.md) for the detailed evidence and screenshots.
